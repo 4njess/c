@@ -1,0 +1,179 @@
+*{
+
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body{
+
+    background-color: #fca4a6;
+}
+
+.Panel{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Header{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+.PanelInfo{
+    margin-top: 10px;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ph{
+
+    margin-right: 15px;
+}
+
+.Content{
+    height: 100%;
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    margin-left: -250px;
+}
+
+.ContentText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+
+.ContentHead{
+
+    width: 400px;
+    font-size: 38px;
+    font-weight: 800;
+
+    
+}
+
+.ContentInfo{
+    margin-top: 25px;
+    width: 200px;
+    font-size: 24px;
+
+
+}
+
+.ContentButton{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    margin-top: 25px;
+    background-color: #ff64889e;
+    border-radius: 5px;
+    border: 4px ridge #e33faf4d;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+
+
+}
+
+.Pics{
+    transition: 2s;
+
+}
+
+.Pics:hover{
+
+}
+
+.Pics:hover > .Group1{
+    transform: translate(-20px, 15px);
+
+}
+
+.Pics:hover > .Group1 > .Pic1{
+    transform: rotate(-15deg);
+    transform: scale(1.2);
+
+}
+
+.Pics:hover > .Group1 > .Pic2{
+    transform: rotate(-45deg);
+}
+
+.Pics:hover > .Group1 > .Pic3{
+    transform: rotate(15deg);
+}
+
+
+.Pic6{
+    position: absolute;
+    transition: 2s;
+}
+.Pic5{
+    position: absolute;
+    transition: 2s;
+}
+.Pic4{
+    position: absolute;
+    transition: 2s;
+}
+.Pic3{
+    position: absolute;
+    transition: 2s;
+
+}
+.Pic2{
+    position: absolute;
+    transition: 2s;
+}
+.Pic1{
+    position: absolute;
+    transition: 2s;
+
+}
+
+.Pic6:hover{
+ 
+}
+
+
+.Group1{
+    transition: 2s;
+}
+
+
+.Group2{
+    transition: 2s;
+}
+
+
+
+
+.Group2:hover{
+    transition: 2s;
+    transform: translate(15px, -15px);
+    transform: rotate(-5deg);
+
+}
+
+.Group2:hover > .Pic4{
+    transition: 2s ease;
+    transform: rotate(35deg);
+}
+
+.Group2:hover > .Pic5{
+    transition: 2s ease;
+    transform: rotate(-15deg);
+}

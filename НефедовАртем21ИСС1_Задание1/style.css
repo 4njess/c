@@ -1,0 +1,132 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+body{
+    background-color: #008bc6;  
+    height: 100%;
+    width: 100%;
+}
+
+.allblocks{
+    height: 100%;
+    border-radius: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #67b2d2;
+    box-shadow: 0 15px 30px;
+}
+
+.Panel{
+
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.log{
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+
+.button1{
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+.buttons{
+    margin-top: 15px;
+}
+
+
+.MainBlock{
+
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8%;
+}
+
+
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.Text1{
+    font-size: 24px;
+}
+
+
+.TextHeader{
+    font-size: 46px;
+    font-weight: 600;
+
+}
+
+
+
+.Text2{
+    width: 400px;
+    font-size: 24px;
+}
+
+
+.button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #008bc6;
+    border: 1.5px solid rgba(0,0,0,0.5);
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.button:hover{
+    box-shadow: 3px 5px 1px;
+}
+
+.Pic{
+    animation: 7s infinite Img ease-in-out;
+}
+
+@keyframes Img {
+    0%{
+        transform: translate(0, 20px);
+    }
+    25%{
+        transform: translate(0, -20px) scale(1.1) rotate(5deg);
+    }
+    50%{
+        transform: translate(0, 40px);
+    }
+    75%{
+        transform: translate(0, -20px) scale(1.1) rotate(-5deg);
+    }
+    100%{
+        transform: translate(0, 20px);
+    }
+}
+
+
+.headerlegger{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 18px;
+}

@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.allblocks{
+}
+
+.buttons{
+
+}
+
+.ButtonUpFirst{
+    display: flex;
+    background-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -15px;
+    flex-direction: column;
+}
+
+.FirstBlockUp{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: 500;
+}
+
+.FirstBlock{
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.FirstBlockText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.headFirst{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.textFirst{
+    font-size: 24px;
+    width: 300px;
+}
+
+.FirstBlockButton{
+    display: flex;
+    margin-top: 25px;
+    background-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}  
+
+.menu_link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+
+/* Второй блок */
+
+.SecondBlock{
+    margin-top: 200px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.SecondBlockImg{
+    margin-right: 210px;
+}
+
+.SecondBlockTxt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.headSecond{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textSecond{
+    margin-top: 15px;
+    font-size: 24px;
+    width: 350px;
+}
+
+/*Третий блок*/
+
+.ThirdBlock{
+    margin-left: -30px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ThirdBlockImg{
+    margin-left: 210px;
+
+}
+
+.ThirdBlockTxt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.headThird{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textThird{
+    margin-top: 15px;
+    font-size: 24px;
+    width: 350px;
+}
+
+/*Вторая страница*/
+
+
+/*Описание блоков (сервисы)*/
+.InfBlocks{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.InfHead1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.InfHead2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+    
+
+}
+
+
+.Inf{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 245px;
+    max-height: 245px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249, 247, 247);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25%;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    
+}
+
+.Inf_head{
+    font-size: 18px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+
+
+.Inf_img{
+
+}
+
+.Inf_text{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 450;
+}
+
+.Inf_Button{
+    font-weight: 650;
+    cursor: pointer;
+    
+}
+
+/*Приложение*/
+
+.TimeBlock{
+    margin-right: 30px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.TimeInf{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 350px;
+
+}
+
+.TimeHead{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+.TimeTxt{
+    margin-top: 30px;
+    font-size: 16px;
+
+
+}
+
+.ButtonLink{
+    display: flex;
+    margin-right: 40px;
+    height: 40px;
+    width: 125px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.TimeLink{
+    margin-top: 30px;
+    display: flex;
+
+}
+
+/*Контактная*/
+
+.Contact{   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 500px;
+
+}
+
+.ContHead{
+    font-weight: 650;
+    font-size: 28px;
+}
+
+.ContTxt{
+    margin-top: 25px;
+
+}
+
+
+.CI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    font-weight: 400;
+
+
+}
+
+.cccccc{
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ButtonLink2{
+    display: flex;
+    margin-left: 40px;
+    height: 40px;
+    width: 125px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*конец страницы*/
+
+.End{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    justify-content: center;
+}
+
+.EndBlock{
+    margin-top: 80px;
+    margin-left: 60px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.amogus{
+    margin-top:20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.leg{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{  
+}
